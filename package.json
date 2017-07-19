@@ -1,0 +1,23 @@
+{
+  "name": "commit-nodejs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "is-root": "^1.x",
+    "johnny-five": "^0.10.x",
+    "log-segment": "^1.x",
+    "raspi-io": "^8.x",
+    "socket.io": "^1.x",
+    "express": "^4.x"
+  },
+  "devDependencies": {
+    "tap": "^10.x"
+  },
+  "author": "Simone Sanfratello simone@braceslab.com",
+  "license": "MIT"
+}

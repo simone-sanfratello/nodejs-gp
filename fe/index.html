@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Node.js Grand Prix</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="title" href="http://www.commitsoftware.it/" target="_blank">
+                    <img src="img/commituniversity.jpg"/>
+                    Commit University
+                </a>
+                <a class="title" href="https://www.braceslab.com" target="_blank">
+                    <img src="favicon.png"/>
+                    braces lab
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container main">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <button id="command-forward" type="button" class="btn btn-primary btn-squared">
+                <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+              </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <button id="command-left" type="button" class="btn btn-primary btn-squared">
+                <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+              </button>
+            </div>
+
+            <div class="col-xs-6 text-center">
+                <button id="command-right" type="button" class="btn btn-primary btn-squared">
+                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>              
+            </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <button id="command-backward" type="button" class="btn btn-primary btn-squared">
+                <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>              
+              </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div id="log">CONSOLE LOG</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- /container -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/lib.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
