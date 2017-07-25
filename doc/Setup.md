@@ -1,11 +1,4 @@
-# references
 
-https://github.com/nebrius/raspi-io/wiki/Getting-a-Raspberry-Pi-ready-for-NodeBots
-http://johnny-five.io/#hello-world
-http://johnny-five.io/api/motor
-https://github.com/EmergingTechnologyAdvisors/node-serialport/
-http://www.voodootikigod.com/nodebots-the-rise-of-js-robotics/
-https://www.packtpub.com/books/content/programming-raspberry-pi-robots-javascript
 
 # raspbian
 
