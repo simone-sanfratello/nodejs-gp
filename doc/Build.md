@@ -13,7 +13,7 @@
 
 #### Base
 You can build the kart following the instructions from [CamJam Edukit](https://thepihut.com/products/camjam-edukit-3-robotics).
-It's a good solution, but I suggest to use a small wood board with and a wheel like [this](http://i.ebayimg.com/thumbs/images/g/eMcAAOSwmfhX4-7-/s-l225.jpg) instead of the box and wheel from the kit, because they are very unstable. Anyway, remember the kit come for educational scope.
+It's a good solution, but I suggest to use a small wood board with and a wheel like [this](http://i.ebayimg.com/thumbs/images/g/eMcAAOSwmfhX4-7-/s-l225.jpg) instead of the box and wheel from the kit, because they are very unstable. Anyway, remember the kit come for **educational purpose only**.
 
 #### Raspberry and Motors
 

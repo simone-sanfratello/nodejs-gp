@@ -1,11 +1,28 @@
+## Setup
 
+### raspbian OS
 
-# raspbian
+Download raspbian from https://www.raspberrypi.org/downloads/raspbian/
+You don't need desktop, so lite version is enotught.
+
+Follow [this guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to install OS on SD card.
+
+Then, insert SD card into Raspberry and power on.
+
+First time, you need a monitor and keyboard to configure network, connect monitor on HDMI **before** power on Raspberry, or output will not work.
+
+After boot, login with default credentials: user `pi` and password `raspberry`. Rember, it's always safe to change default password!
+
+So, you can follow the instruction to setup network, node.js and libreries.
+
+#### setup network
+
+Run follow command; set your wifi credentials in ``/etc/wpa_supplicant/wpa_supplicant.conf`` and a static ip in ``/etc/dhcpcd.conf``
+
+````bash
 
 sudo -i
 
-````bash
-# network
 echo "
 source-directory /etc/network/interfaces.d
 
@@ -42,28 +59,44 @@ service networking restart
 
 ifdown wlan0
 ifup wlan0
+````
 
+check if everything is ok
+
+````bash
 ifconfig
+````
 
-apt update
-apt upgrade
+#### Remote access via ssh
 
-raspi-config
-# ! enable ssh
+Enable ssh from ``raspi-config`` tool
 
-#### nodejs on raspberry pi 2/3
+````bash
+sudo raspi-config
+````
+
+#### Install nodejs and libraries
+
+````bash
+sudo -i
+
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-#### nodejs on raspberry pi zero
-wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v6.9.1.sh | bash
 
 apt install nodejs git wiringpi build-essential
 npm i -g tap nodemon
+````
 
+Finally, clone this project and install dependencies
+
+````bash
 su pi
-
 cd /home/pi
 git clone https://github.com/braceslab/nodejs-gp.git
 cd nodejs-gp
 npm i
-```
+````
+
+---
+
+Now you are ready to **[run](./Run.md)!**
 
