@@ -1,7 +1,7 @@
 
 # Node.js Grand Prix
 
-![Intro](./img/intro.png)
+![Intro](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/intro.png)
 
 ## Firenze, 20/07/17
 
@@ -9,13 +9,13 @@
 
 ## Sanfratello Simone
 
-![braceslab](./img/braceslab.png)
+![braceslab](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/braceslab.png)
 
 ## www.braceslab.com
 
 ---
 
-![node.js#logo](./img/nodejs.png)
+![node.js#logo](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/nodejs.png)
 
 > https://nodejs.org  
 > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.  
@@ -48,7 +48,7 @@
 
 ---
 
-![raspberry#logo](./img/raspberry.png)
+![raspberry#logo](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/raspberry.png)
 
 https://www.raspberrypi.org
 
@@ -64,7 +64,7 @@ https://www.raspberrypi.org
 
 ---
 
-![socketio#logo](./img/socketio.png)
+![socketio#logo](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/socketio.png)
 
 https://socket.io
 
@@ -86,7 +86,7 @@ socket.emit('message', 'ack')
 
 ---
 
-![johnny-five#logo](./img/johnny.png)
+![johnny-five#logo](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/johnny.png)
 
 http://johnny-five.io
 
@@ -108,13 +108,13 @@ pin.write(1)
 
 #### backend
 
-![backend#large](./img/backend.png)
+![backend#large](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/backend.png)
 
 ---
 
 #### frontend
 
-![frontend#large](./img/frontend.png)
+![frontend#large](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/frontend.png)
 
 ---
 
