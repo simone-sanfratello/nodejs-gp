@@ -17,7 +17,7 @@ If you want to reproduce a kart, follow the instructions
 
 ---
 
-Open an issue if you need
+Open an issue if you need support
 
 ---
 
