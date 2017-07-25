@@ -58,14 +58,23 @@ io.on('connection', function (socket) {
 
   socket.on('command', function (cmd) {
     log.info('socket', 'command received', cmd)
-    // write here!
-
-    // example
-    kart.forward()
-    setTimeout(() => {
-      kart.stop()
-    }, 1000)
-
+    switch (cmd) {
+      case 'forward':
+        kart.forward()
+        break
+      case 'backward':
+        kart.backward()
+        break
+      case 'left':
+        kart.left()
+        break
+      case 'right':
+        kart.right()
+        break
+      case 'stop':
+        kart.stop()
+        break
+    }
     /** *** kart API ***
     kart.forward()
     kart.backward()
