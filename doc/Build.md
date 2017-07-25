@@ -19,17 +19,17 @@ It's a good solution, but I suggest to use a small wood board with and a wheel l
 
 Put the wheels at the edge of the container, pay attention to have connection **inside**.
 
-![motors](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/kart-build-motors.png)
+![motors](./img/kart-build-motors.png)
 
 Then, connect to board module in this way.
 
-![module](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/kart-build-module.png)
+![module](./img/kart-build-module.png)
 
 It's not the only way to do, but it's the way that match with current software GPIO configuration. Pay attention to wires order. 
 
 Finally, connect the module to Raspberry.
 
-![gpio](/home/simone/braceslab.com/tmp/_nodejs-gp/doc/img/kart-build-gpio.png)
+![gpio](./img/kart-build-gpio.png)
 
 #### Powerbank and batteries
 
