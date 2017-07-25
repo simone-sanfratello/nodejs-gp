@@ -15,6 +15,6 @@ sudo node main.js
 
 **open browser at 192.168.1.194**
 
-If you'd like the complete ``fe/js/main.js`` and ``main.js``, just pull the ``complete`` branch :)
+If you'd like the complete solution with keyboard and touch support, just pull the ``complete`` branch :)
 
 **Thank you for playing!**
