@@ -114,7 +114,7 @@ pin.write(1)
 
 #### frontend
 
-![frontend#large](./doc/img/frontend.png)
+![frontend#large](./img/frontend.png)
 
 ---
 
